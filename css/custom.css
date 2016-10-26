@@ -121,6 +121,45 @@ h2 {
 }
 #slide-2 .text-5 a {
     color:#FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+#slide-3 .text-1 {
+    color:#FFF !important;
+    font-size:30px;
+    font-family:font-family: 'Raleway', sans-serif;
+}
+#slide-3 h2 {
+    font-size:60px;
+    color:#FFF !important;
+    font-family:font-family: 'Raleway', sans-serif;
+}
+#slide-3 .text-3 {
+    font-family:font-family: 'Raleway', sans-serif;
+    color:#FFF;
+    font-size:24px;
+}
+#slide-3 .text-4 {
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    color:#FFF !important;
+
+}
+#slide-3 .text-tel {
+    color:#FFF !important;
+    font-family: 'Lato', sans-serif;
+    font-size:32px;
+
+}
+#slide-3 .button {
+    padding-left:25px;
+    padding-right:25px;
+}
+
+.icon-star3 {
+    font-size:35px;
+    color:#FFD700;
+    text-shadow:none;
 }
 
 /** NAVBAR **/
