@@ -44,10 +44,23 @@ body {
     padding:5px 0;
 }
 
+#primary-menu-trigger {
+    font-size:28px;
+    color:#02182D;
+}
+
+.device-xxs #primary-menu-trigger {
+    margin-left:-5%;
+}
 #primary-menu ul li > a {
     color:#FFF;
     font-size:18px;
 }
+.device-sm #header-wrap, .device-xs #header-wrap, .device-xxs #header-wrap {
+    background:#FFF;
+}
+
+
 @media (max-width:1350px) {
     #primary-menu ul li > a {
         font-size:16px;
@@ -75,26 +88,28 @@ body {
 .sticky-header #primary-menu ul li > a {
     color:#02182D;
 }
+.device-sm #primary-menu ul li > a, .device-xs #primary-menu ul li > a, .device-xxs #primary-menu ul li > a {
+    color:#02182D;
+}
 
 #side-panel-trigger {
     width:22px;
     height:22px;
     right:15px;
 }
-.device-xxs #side-panel-trigger {
-    margin:19px 0;
-}
-.device-xxs #primary-menu-trigger {
-    top:5px;
-    bottom:5px;
-}
+
+
+
 .fa-info-circle {
     font-size:22px;
     position:relative;
     color:#FFF;
 }
+.device-sm .fa-info-circle, .device-xs .fa-info-circle, .device-xxs .fa-info-circle {
+    color:#02182D;
+}
 .sticky-header .fa-info-circle {
-    color:#000;
+    color:#02182D;
 }
 
 .device-xxs #primary-menu-trigger {

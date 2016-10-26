@@ -299,7 +299,6 @@
 	#header.transparent-header,
 	#header.semi-transparent {
 		background: #FFF;
-		border-bottom: 1px solid #F5F5F5;
 		z-index: auto;
 	}
 
