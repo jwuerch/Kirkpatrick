@@ -25,3 +25,7 @@
 .tp-video-play-button { display: none !important; }
 
 .tp-caption { white-space: nowrap; }
+
+#slider {
+    top:-100px;
+}
