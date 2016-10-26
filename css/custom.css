@@ -2,33 +2,26 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight:400;
 }
+h1 {
+    font-size:80px;
+}
 
-/** REV SLIDER **/
+/** REV SLIDER WITH CANVAS **/
 
 .revo-slider-emphasis-text {
-    font-size: 64px;
     font-weight: 700;
     letter-spacing: -1px;
     font-family: 'Raleway', sans-serif;
     padding: 15px 20px;
-    border-top: 2px solid #FFF;
-    border-bottom: 2px solid #FFF;
 }
 
 .revo-slider-desc-text {
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 650px;
     text-align: center;
     line-height: 1.5;
 }
 
-.revo-slider-caps-text {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    font-family: 'Raleway', sans-serif;
-}
 .tp-video-play-button { display: none !important; }
 
 .tp-caption { white-space: nowrap; }
@@ -37,6 +30,58 @@ body {
 
 #slider {
     top:-102px;
+}
+.rev-slide {
+    font-family:font-family: 'Raleway', sans-serif;
+    color:#FFF;
+}
+#slide-1 h5 {
+    letter-spacing:0;
+    font-family: 'Raleway', sans-serif;
+    font-size:24px !important;
+    position:relative;
+    font-weight:400;
+    width:561px;
+    max-width:561px;
+    text-align:center;
+}
+#slide-1 h1 {
+    font-size:80px !important;
+    letter-spacing:0;
+    max-width:561px;
+    font-family: 'Raleway', sans-serif;
+
+}
+#slide-1 p {
+    font-size:28px !important;
+    font-weight:400;
+    font-family:font-family: 'Raleway', sans-serif;
+    position:relative;
+    line-height:35px;
+}
+#slide-1 div.col-sm-6.tright > div:nth-child(1) {
+    font-size:20px !important;
+    margin-bottom:13px;
+    line-height:14px;
+}
+#slide-1 .tel-text {
+    font-size:32px !important;
+    color:#FFF;
+}
+#slide-1 .row > div:nth-child(2) {
+    border-left:1px solid #FFF;
+}
+#slide-1 .button {
+    margin-top:0;
+    margin-bottom:0;
+}
+#slide-1 .final-p {
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+
+}
+#slide-1 .final-p a {
+    color:#FFF;
 }
 
 /** NAVBAR **/

@@ -6574,20 +6574,25 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	display: inline-block;
 	position: relative;
 	cursor: pointer;
+	background:#FF7A00;
+	color:#FFF;
+	border-radius:32px;
 	outline: none;
 	white-space: nowrap;
 	margin: 5px;
 	padding: 0 22px;
-	font-size: 14px;
+	font-size: 20px;
 	height: 48px;
 	line-height: 40px;
 	color: #FFF;
-	font-weight: 600;
-	letter-spacing: 1px;
-	border: 1px solid #FFF;
+	font-weight: 700;
+	border: 2px solid #FFF;
+	padding-bottom:4px;
 	padding-top:4px;
 	padding-left:45px;
 	padding-right:45px;
+	font-family: 'Lato', sans-serif;
+
 }
 
 .button:hover {
