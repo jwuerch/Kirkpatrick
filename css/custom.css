@@ -5,6 +5,9 @@ body {
 h1 {
     font-size:80px;
 }
+h2 {
+    font-size:64px;
+}
 
 /** REV SLIDER WITH CANVAS **/
 
@@ -74,6 +77,10 @@ h1 {
 #slide-1 .row > div:nth-child(2) {
     border-left:1px solid #FFF;
 }
+#slide-1 div.col-sm-6.tright > div:nth-child(2) > a {
+    font-family: 'Lato', sans-serif;
+
+}
 #slide-1 .button {
     margin-top:0;
     margin-bottom:0;
@@ -84,6 +91,35 @@ h1 {
 
 }
 #slide-1 .final-p a {
+    color:#FFF;
+}
+#slide-2 .text-1 {
+    font-size:28px;
+    font-family:font-family: 'Raleway', sans-serif;
+    color:#FFF !important;
+}
+#slide-2 h2 {
+    font-size:60px;
+    color:#FFF !important;
+    font-family:font-family: 'Raleway', sans-serif;
+    font-weight:700;
+}
+#slide-2 .text-3 {
+    font-family:font-family: 'Raleway', sans-serif;
+    color:#FFF !important;
+    font-size:28px;
+}
+#slide-2 .text-4 {
+    color:#FFF !important;
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+}
+#slide-2 .text-5 {
+    color:#FFF !important;
+    font-size:32px;
+    font-family: 'Lato', sans-serif;
+}
+#slide-2 .text-5 a {
     color:#FFF;
 }
 
