@@ -40,11 +40,38 @@ body {
 }
 
 /** NAVBAR **/
+#logo img {
+    padding:5px 0;
+}
 
 #primary-menu ul li > a {
     color:#FFF;
     font-size:18px;
 }
+@media (max-width:1350px) {
+    #primary-menu ul li > a {
+        font-size:16px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #logo img {
+        padding:10px 0;
+    }
+}
+@media (max-width:1150px) {
+    #primary-menu ul li > a {
+        font-size:14.5px;
+        padding-left:7.5px;
+        padding-right:7.5px;
+    }
+    #logo img {
+        padding:17px 0;
+    }
+}
+.device-sm #logo img, .device-xs #logo img, .device-xxs #logo img {
+    padding:5px 0;
+}
+
 .sticky-header #primary-menu ul li > a {
     color:#02182D;
 }
@@ -63,7 +90,6 @@ body {
 }
 .fa-info-circle {
     font-size:22px;
-    top:-2px;
     position:relative;
     color:#FFF;
 }
