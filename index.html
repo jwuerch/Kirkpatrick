@@ -748,6 +748,46 @@
 
             </section>
 
+            <!--Contact Section -->
+            <section id="contact" class="section-contact full-screen section nopadding nomargin noborder ohidden">
+                <div class="vertical-middle">
+                    <div class="container clearfix">
+                        <!-- Contact Form Overlay
+                        ============================================= -->
+                        <div id="contact-form-overlay-mini" class="clearfix">
+                            <div class="center">
+                                <a href="#" data-scrollto="#header" data-offset="0"><img src="images/kirkpatrick-logo-dark.png" alt="Logo"></a>
+                            </div>
+                            <div class="center">
+                                <p>270 South Main Street</p>
+                                <p class="bottommargin-sm">Lebanon, OR 97355</p>
+                                <h5 class="bottommargin-sm">Shelley Sproull, DDS</h5>
+                                <p class="view-map bottommargin-sm"><a>Click to view map</a></p>
+                                <p class="">New Patient Hotline</p>
+                                <p class="text-phone"><a href="tel:+18889216979">(888) 921&#8209;6979</a></p>
+                                <a class="button button-1" data-toggle="modal"
+                                   data-target="#contact-modal">Request an Appointment</a>
+                                <p class="nobottommargin">Existing Patients Call:</p>
+                                <p class="text-phone-2"><a href="tel:+15412592225">(541) 259&#8209;2225</a></p>
+                                <a class="button button-2">New Patient Forms</a>
+                            </div>
+
+
+                        </div><!-- Contact Form Overlay End -->
+
+                    </div>
+                </div>
+            </section>
+
+                <!-- Google Map
+                ============================================= -->
+                <section id="google-map" class="hidden-sm hidden-xs hidden-xxs notoppadding gmap full-screen"><h2 class=" hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs hidden-print">Empty Tag</h2>
+                </section>
+                <section id="map-below" class="hidden-lg hidden-md">
+                    <h6 class="hidden-lg hidden-md hidden-sm hidden-xs hidden-xxs hidden-print">Empty Tag</h6>
+                    <img src="images/map-kirkpatrick.jpg" alt="Kirkpatrick Map">
+                </section>
+
 
         </div>
 
@@ -971,6 +1011,28 @@
     });
 
 </script><!-- END REVOLUTION SLIDER -->
+
+<!-- Google Map Script
+    ========================= -->
+<script>
+    var map;
+    function initMap() {
+        var myLatLng = {lat: 29.562602, lng: -98.681717};
+        map = new google.maps.Map(document.getElementById('google-map'), {
+            center: myLatLng,
+            zoom: 17,
+            scrollwheel: false,
+            draggable: false
+        });
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'Aurora Family Dentistry'
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8M-t-mC3X8wlQvyy6a93iVQ3v2JGv9Q4&callback=initMap" async
+        defer></script>
 
 </body>
 </html>

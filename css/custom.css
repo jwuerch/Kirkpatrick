@@ -763,7 +763,8 @@ h2 {
 /** LOCATION **/
 #location-top {
     background:url('../images/location-bkgd-photo.jpg');
-    height:400px;
+    height:374px;
+    border-bottom:5px solid #FFF;
 }
 #location-top h5 {
     margin-bottom:-10px;
@@ -773,4 +774,112 @@ h2 {
 #location-top h2 {
     color:#FFF;
 }
+
+/** CONTACT **/
+
+#contact {
+    max-height:720px;
+}
+#contact .img-wrap.center > a > img{
+    max-width:197px;
+    margin-bottom:10px;
+}
+#contact h5 {
+    font-size:21px;
+    color:#1AA1B2;
+    margin-bottom:0;
+    font-weight:700;
+    line-height:25px;
+}
+#contact p {
+    color:#6E7479;
+    margin-bottom:0;
+    line-height:25px;
+}
+#contact .city {
+    margin-bottom:20px;
+}
+#contact .map-link a {
+    color:#1AA1B2;
+}
+#contact .map-link {
+    margin-bottom:20px;
+}
+#contact .text-phone a {
+    font-size:32px;
+    color:#4A4A4A;
+
+}
+
+.device-xxs #contact .text-phone a {
+    font-size:26px;
+
+}
+.device-xxs #contact .text-phone-2 a {
+    font-size:22px;
+
+}
+.device-xxs #contact .button {
+    padding-left:20px;
+    padding-right:20px;
+}
+#contact .text-phone-2 a {
+    color:#4A4A4A;
+}
+#contact .contact-p {
+    margin-bottom:5px;
+}
+#contact .text-phone, #contact .text-phone-2 {
+    margin-bottom:15px;
+}
+#contact .text-phone a:hover, #contact .text-phone-2 a:hover {
+    text-decoration:none;
+}
+#contact .button {
+    padding-left:45px;
+    padding-right:45px;
+    margin-bottom:20px;
+}
+#contact-form-overlay-mini {
+    border-radius:12px;
+    padding:25px 35px;
+}
+.device-xxs #contact-form-overlay-mini {
+    padding:25px 25px;
+}
+
+#contact img {
+    margin-bottom:15px;
+}
+#contact p {
+    color:#4A4A4A;
+    font-size:20px;
+}
+.view-map a {
+    font-size:18px;
+    color:#4E9B07;
+    text-decoration:underline;
+}
+#contact .button-2 {
+    background:#FFF;
+    color:#1385E8;
+    border:2px solid #1385E8;
+    padding-top:0;
+}
+#device-xxs #contact .button-2 {
+    font-size:18px;
+}
+#contact .button {
+    padding-top:0;
+}
+#contact .button-1 {
+    padding:0 22px;
+
+}
+.device-xxs .button-1 {
+    width:100%;
+    padding:0 5px;
+    font-size:18px;
+}
+
 
