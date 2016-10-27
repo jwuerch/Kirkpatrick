@@ -701,3 +701,29 @@ h2 {
 #sub-membership-row img {
     width:100%;
 }
+
+/* OFFICE TOUR */
+#office-tour {
+    padding:50px 0;
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #C6D9E8 100%);
+}
+#office-tour h5 {
+    margin-bottom:-10px;
+    color:#084174;
+}
+#office-tour h2 {
+    color:#1385E8;
+}
+#office-tour .button {
+    margin-bottom:-10px;
+    text-align:center;
+    padding-top:0;
+}
+.device-xxs #office-tour .button {
+    width:100%;
+}
+#office-tour > div > div.row > div:nth-child(1) {
+    margin-bottom:20px;
+}
+
+
