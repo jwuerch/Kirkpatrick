@@ -52,4 +52,10 @@
             $('.service').addClass('col-xs-6');
         }
     })
+
+    $('.delay-btn').click(function() {
+        setTimeout(function() {
+            $('.hidden-div').removeClass('hidden');
+        }, 750);
+    });
 })(jQuery);

@@ -1022,4 +1022,17 @@ h4.modal-title {
     margin-bottom:10px;
 }
 
+/* OFFICE TOUR MODAL */
 
+.owl-carousel .owl-dots {
+    display:none;
+}
+
+.owl-carousel:hover .owl-nav [class*=owl-], .owl-carousel .owl-nav [class*=owl-]:hover, .owl-carousel.with-carousel-dots .owl-nav [class*=owl-] {
+    background:#1385E8 !important;
+    color:#FFF !important;
+}
+
+.owl-carousel .owl-nav [class*=owl-] {
+    opacity:1 !important;
+}
