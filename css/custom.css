@@ -307,8 +307,15 @@ h2 {
 #meet-the-doctors {
     background-image: linear-gradient(-180deg, #FFFFFF 0%, #C6D9E8 100%);
 }
+.device-sm #meet-the-doctors, .device-xs #meet-the-doctors, .device-xxs #meet-the-doctors {
+    padding-top:50px;
+}
+
 #meet-the-doctors h2 {
     color:#1385E8;
+}
+.device-xxs #meet-the-doctors h2 {
+    font-size:52px;
 }
 
 #meet-the-doctors h5 {
@@ -525,34 +532,32 @@ h2 {
     margin-top:6px;
 }
 
-.device-xxs .phone-slug div.col-sm-6.tright {
+.device-xs .phone-slug div.col-sm-6.tright, .device-xxs .phone-slug div.col-sm-6.tright {
     text-align:center !important;
 }
-.device-xxs .phone-slug div.col-sm-6.tleft {
+.device-xs .phone-slug div.col-sm-6.tleft, .device-xxs .phone-slug div.col-sm-6.tleft {
     text-align:center !important;
+    border-left:none;
 }
-#phone-slug-1 div.col-sm-6.tleft {
-    border-left:1px solid #FFF;
-}
-.device-xxs .phone-slug h6 {
+.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
     font-size:21px;
     line-height:10px;
 }
-.device-xxs .text-phone {
+.device-xs .text-phone, .device-xxs .text-phone {
     font-size:40px;
     margin-bottom:20px;
 }
-.device-xxs .phone-slug .custom-btn {
+.device-xs .phone-slug .custom-btn, .device-xxs .phone-slug .custom-btn {
     margin-bottom:20px;
 }
-.device-xxs .phone-slug p {
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
     font-size:16px;
 }
-.device-xxs .phone-slug .existing-phone {
+.device-xs .phone-slug .existing-phone, .device-xxs .phone-slug .existing-phone {
     font-size:24px;
 }
 
-.device-xs .phone-slug p, .device-xs .phone-slug p {
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
     line-height:25px !important;
     text-transform:capitalize;
 }
@@ -562,6 +567,9 @@ h2 {
 #phone-slug-1 .button {
     padding-left:60px;
     padding-right:60px;
+}
+.device-xs #phone-slug-1 .button, .device-xxs #phone-slug-1 .button {
+    margin-bottom:20px;
 }
 
 /** SECTION PATIENT REVIEWS **/
@@ -630,8 +638,8 @@ h2 {
 }
 
 
-/** END SECTION PATIENT REVIEWS **/
-/** MOBILE SLIDER **/
+/** END SECTION PATIENT REVIEWS **
+/* Mobile Slider */
 #mobile-slider {
     border-bottom:5px solid #FFF;
 }
