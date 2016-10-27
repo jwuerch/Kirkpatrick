@@ -314,9 +314,6 @@ h2 {
 #meet-the-doctors h2 {
     color:#1385E8;
 }
-.device-xxs #meet-the-doctors h2 {
-    font-size:52px;
-}
 
 #meet-the-doctors h5 {
     margin-bottom:0;
@@ -642,4 +639,65 @@ h2 {
 /* Mobile Slider */
 #mobile-slider {
     border-bottom:5px solid #FFF;
+}
+
+/** MEMBERSHIP CLUB **/
+
+#membership-club {
+    padding:50px 0;
+    background:url('../images/membership-row.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.device-xs #membership-club, .device-xxs #membership-club, .device-sm #membership-club {
+    background:#FFF;
+    padding-bottom:0;
+}
+.device-md #membership-club h2 {
+    font-size:48px;
+}
+
+#membership-club h5 {
+    color:#8A4303;
+    margin-bottom:-10px;
+}
+.device-xxs #membership-club h5 {
+    font-size:20px;
+}
+#membership-club h2 {
+    color:#FF7A00;
+    margin-bottom:10px;
+}
+#membership-club p.memb-cost {
+    color:#4A4A4A;
+    font-weight:700;
+    font-size:24px;
+    margin-bottom:50px;
+}
+#membership-club p {
+    margin-bottom:0;
+    color:#4A4A4A;
+}
+.device-xxs #membership-club p.memb-cost {
+    font-size:20px;
+}
+#membership-club .button {
+    padding-top:0;
+    padding:0 65px;
+    margin-top:50px;
+}
+.device-sm #membership-club .col-md-6, .device-xs #membership-club .col-md-6, .device-xxs #membership-club .col-md-6 {
+    text-align:center;
+}
+
+.device-md #membership-club h2, .device-sm #membership-club h2, .device-xs #membership-club {
+    font-size:52px;
+    margin-bottom:30px;
+}
+
+.device-xxs #membership-club h2 {
+    font-size:32px;
+}
+#sub-membership-row img {
+    width:100%;
 }
