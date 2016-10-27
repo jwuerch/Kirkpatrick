@@ -26,12 +26,14 @@ h2 {
     font-weight:700;
 }
 #content {
-    top:-102px;
 }
 #content p {
     color:#4A4A4A;
     font-size:18px;
     line-height:27px;
+}
+.content-wrap {
+    padding-bottom:0;
 }
 
 
@@ -909,5 +911,33 @@ h2 {
 a.social-icon.si-colored.si-small.si-borderless.si-citysearch {
     line-height:22px !important;
 }
+#copyrights {
+    background:#084174;
+}
 
+.si-colored.social-icon {
+    margin-right:10px;
+}
+#wrapper {
+    padding-bottom:0 !important;
+}
+.device-sm .care-credit {
+    width:50%;
+}
 
+.device-xs #copyrights .col_half:last-child, .device-xxs #copyrights .col_half:last-child {
+    display:block;
+    margin-top:10px;
+}
+
+.device-xxs div.fright.clearfix {
+    text-align:center !important;
+}
+
+.device-xxs .social-icon {
+    position:relative;
+    left:22%;
+}
+.device-xxs .care-credit {
+    margin-top:10px;
+}
