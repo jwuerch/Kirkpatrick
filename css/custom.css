@@ -356,6 +356,8 @@ h2 {
 #fall-specials {
     background:url('../images/offers/fall-offer.jpg');
     border-bottom:5px solid #FFF;
+    background-size:cover;
+    background-position:center center;
 }
 
 #fall-specials h4 {
