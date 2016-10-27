@@ -6,8 +6,29 @@ h1 {
     font-size:80px;
 }
 h2 {
-    font-size:64px;
+    font-size:60px;
 }
+h5 {
+    font-size:24px;
+}
+h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+}
+#content {
+    top:-102px;
+}
+#content p {
+    color:#4A4A4A;
+    font-size:18px;
+    line-height:27px;
+}
+
+
 
 /** REV SLIDER WITH CANVAS **/
 
@@ -275,4 +296,32 @@ h2 {
 
 .widget .tel-text {
     line-height:15px;
+}
+/** Meet the doctors **/
+#meet-the-doctors {
+    background-image: linear-gradient(-180deg, #FFFFFF 0%, #C6D9E8 100%);
+}
+#meet-the-doctors h2 {
+    color:#1385E8;
+}
+
+#meet-the-doctors h5 {
+    margin-bottom:0;
+    color:#084174;
+}
+#meet-the-doctors .row > div:nth-child(2) > p:nth-child(1) {
+    margin-top:-6px;
+}
+.video-caption {
+    font-size:16px !important;
+    font-style:italic;
+}
+.video-wrap {
+    margin-bottom:20px;
+}
+#sub-meet-the-doctors {
+    background:url('../images/bio-base.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:167.578px;
 }
