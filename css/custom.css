@@ -18,6 +18,9 @@ h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     font-weight:400;
 }
+h6 {
+    font-size:20px;
+}
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight:700;
@@ -475,3 +478,147 @@ h2 {
 
 
 /** END SPECIALS **/
+
+/** PHONE SLUG **/
+
+.phone-slug {
+    background:#758186;
+    padding-top:40px;
+    padding-bottom:30px;
+    background:#084174;
+    border-bottom:5px solid #FFF;
+}
+.phone-slug .text-phone {
+    font-size:32px;
+}
+.phone-slug .text-phone a {
+    color:#FFF;
+}
+
+.phone-slug h6 {
+    line-height:5px;
+    color:#FFF;
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:2px;
+    position:relative;
+    top:-5px;
+}
+
+.phone-slug div.col-sm-6.tleft {
+    border-left:1px solid #FFF;
+}
+.phone-slug .button {
+    margin-bottom:0px;
+    margin-top:0px;
+    padding-top:0;
+    padding-left:25px;
+    padding-right:25px;
+}
+.phone-slug p {
+    color:#FFF;
+    font-size:21px;
+}
+
+
+.phone-slug div.col-sm-6.tright {
+    margin-top:6px;
+}
+
+.device-xs .phone-slug div.col-sm-6.tright, .device-xxs .phone-slug div.col-sm-6.tright {
+    text-align:center !important;
+}
+.device-xs .phone-slug div.col-sm-6.tleft, .device-xxs .phone-slug div.col-sm-6.tleft {
+    text-align:center !important;
+    border-left:none;
+}
+.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
+    font-size:21px;
+    line-height:10px;
+}
+.device-xs .text-phone, .device-xxs .text-phone {
+    font-size:40px;
+    margin-bottom:20px;
+}
+.device-xs .phone-slug .custom-btn, .device-xxs .phone-slug .custom-btn {
+    margin-bottom:20px;
+}
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
+    font-size:16px;
+}
+.device-xs .phone-slug .existing-phone, .device-xxs .phone-slug .existing-phone {
+    font-size:24px;
+}
+
+.device-xs .phone-slug p, .device-xxs .phone-slug p {
+    line-height:25px !important;
+    text-transform:capitalize;
+}
+
+/** SECTION PATIENT REVIEWS **/
+.section-patient-reviews {
+    background-image:url("../images/reviews-section.jpg");
+    padding-top:50px;
+    padding-bottom:20px;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.section-patient-reviews h2 {
+    color: #FFF;
+    text-shadow: 2px 2px 6px #8A4303;
+    margin-bottom:30px;
+}
+.section-patient-reviews h5 {
+    text-shadow: 2px 2px 6px #8A4303;
+    color:#FFF;
+    margin-bottom:0;
+}
+.device-xs .section-patient-reviews h2, .device-xxs .section-patient-reviews h2 {
+    color:#1385E8;
+    text-shadow:none;
+}
+.device-xs .section-patient-reviews h5, .device-xxs .section-patient-reviews h5 {
+    color:#084174;
+    margin-bottom:-10px;
+    text-shadow:none;
+}
+.device-xs #patient-reviews div.left, .device-xxs #patient-reviews div.left {
+    text-align:center !important;
+}
+.device-xs .section-patient-reviews, .device-xxs .section-patient-reviews {
+    background:#FFF;
+}
+.bf-spn {
+    color:#FFF;
+    font-size:16px !important;
+    text-shadow: 2px 2px 6px #8A4303;
+}
+.bf-pro {
+    color:#FFF !important;
+    font-size:16px;
+    text-shadow: 2px 2px 6px #8A4303;
+}
+.device-xs .bf-spn, .device-xxs .bf-spn, .device-xs .bf-pro, .device-xxs .bf-pro {
+    text-shadow:none;
+    color:#4A4A4A !important;
+}
+.bf-pro:hover {
+    text-decoration:underline !important;
+}
+.device-sm #bfpublish {
+    max-height:510px;
+}
+.device-xxs #bfpublish {
+    max-height:350px;
+}
+#sub-patient-reviews {
+    background:url('../images/reviews-mobile.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:281px;
+}
+
+
+/** END SECTION PATIENT REVIEWS **/
