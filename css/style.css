@@ -6595,8 +6595,11 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 
 }
 
+
 .button:hover {
 	text-decoration:none;
+	background:#F47501 !important;
+	text-shadow:none !important;
 }
 
 body:not(.device-touch) .button {
