@@ -42,4 +42,14 @@
             $('ul.mobile-primary-menu').toggleClass("show");
         }
     });
+    if ($(window).width() < 600) {
+        $('.service').removeClass('col-xs-6');
+    }
+    $(window).resize(function() {
+        if ($(window).width() < 600) {
+            $('.service').removeClass('col-xs-6');
+        } else {
+            $('.service').addClass('col-xs-6');
+        }
+    })
 })(jQuery);
