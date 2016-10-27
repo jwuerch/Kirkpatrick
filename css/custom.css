@@ -525,34 +525,43 @@ h2 {
     margin-top:6px;
 }
 
-.device-xs .phone-slug div.col-sm-6.tright, .device-xxs .phone-slug div.col-sm-6.tright {
+.device-xxs .phone-slug div.col-sm-6.tright {
     text-align:center !important;
 }
-.device-xs .phone-slug div.col-sm-6.tleft, .device-xxs .phone-slug div.col-sm-6.tleft {
+.device-xxs .phone-slug div.col-sm-6.tleft {
     text-align:center !important;
-    border-left:none;
 }
-.device-xs .phone-slug h6, .device-xxs .phone-slug h6 {
+#phone-slug-1 div.col-sm-6.tleft {
+    border-left:1px solid #FFF;
+}
+.device-xxs .phone-slug h6 {
     font-size:21px;
     line-height:10px;
 }
-.device-xs .text-phone, .device-xxs .text-phone {
+.device-xxs .text-phone {
     font-size:40px;
     margin-bottom:20px;
 }
-.device-xs .phone-slug .custom-btn, .device-xxs .phone-slug .custom-btn {
+.device-xxs .phone-slug .custom-btn {
     margin-bottom:20px;
 }
-.device-xs .phone-slug p, .device-xxs .phone-slug p {
+.device-xxs .phone-slug p {
     font-size:16px;
 }
-.device-xs .phone-slug .existing-phone, .device-xxs .phone-slug .existing-phone {
+.device-xxs .phone-slug .existing-phone {
     font-size:24px;
 }
 
-.device-xs .phone-slug p, .device-xxs .phone-slug p {
+.device-xs .phone-slug p, .device-xs .phone-slug p {
     line-height:25px !important;
     text-transform:capitalize;
+}
+#phone-slug-1 > div:nth-child(1) > div:nth-child(2) > div > p, #phone-slug-1 .existing-phone a {
+    color:#FFF !important;
+}
+#phone-slug-1 .button {
+    padding-left:60px;
+    padding-right:60px;
 }
 
 /** SECTION PATIENT REVIEWS **/
@@ -622,3 +631,7 @@ h2 {
 
 
 /** END SECTION PATIENT REVIEWS **/
+/** MOBILE SLIDER **/
+#mobile-slider {
+    border-bottom:5px solid #FFF;
+}
