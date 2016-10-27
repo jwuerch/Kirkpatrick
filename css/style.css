@@ -2664,9 +2664,9 @@ body.device-touch #side-panel .side-panel-wrap { overflow-y: scroll; }
 
 #side-panel .widget {
 	margin-top: 40px;
-	padding-top: 40px;
+	padding-top: 20px;
 	width: 220px;
-	border-top: 1px solid #E5E5E5;
+	border-top: 1px solid #979797;
 }
 
 #side-panel .widget:first-child {
@@ -6588,7 +6588,7 @@ body:not(.device-xs):not(.device-xxs) .countdown.countdown-large.coming-soon .co
 	font-weight: 700;
 	border: 2px solid #FFF;
 	padding-bottom:4px;
-	padding-top:4px;
+	padding-top:2px;
 	padding-left:45px;
 	padding-right:45px;
 	font-family: 'Lato', sans-serif;

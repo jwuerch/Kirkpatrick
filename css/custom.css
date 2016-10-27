@@ -25,8 +25,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-weight:700;
 }
-#content {
-}
+
 #content p {
     color:#4A4A4A;
     font-size:18px;
@@ -34,6 +33,7 @@ h2 {
 }
 .content-wrap {
     padding-bottom:0;
+    padding-top:0;
 }
 
 
@@ -252,6 +252,7 @@ h2 {
 
 
 
+
 .fa-info-circle {
     font-size:22px;
     position:relative;
@@ -272,13 +273,18 @@ h2 {
 }
 
 /** SIDE-PANEL **/
+
+.side-panel-wrap > div:nth-child(1) > p:nth-child(7) {
+    margin-bottom:20px;
+    margin-top:-5px;
+}
 .widget p:not(.lead) {
     margin-bottom:0;
     font-size:18px;
     color:#4A4A4A;
     font-family: 'Raleway', sans-serif;
 }
-.widget img {
+.side-panel-wrap > div:nth-child(1) > div {
     margin-bottom:15px;
 }
 .widget .button {
@@ -517,7 +523,6 @@ h2 {
 .phone-slug .button {
     margin-bottom:0px;
     margin-top:0px;
-    padding-top:0;
     padding-left:25px;
     padding-right:25px;
 }
@@ -684,7 +689,6 @@ h2 {
     font-size:20px;
 }
 #membership-club .button {
-    padding-top:0;
     padding:0 65px;
     margin-top:50px;
 }
@@ -719,7 +723,6 @@ h2 {
 #office-tour .button {
     margin-bottom:-10px;
     text-align:center;
-    padding-top:0;
 }
 .device-xxs #office-tour .button {
     width:100%;
@@ -739,6 +742,11 @@ h2 {
 }
 #services h2 {
     color:#1385E8;
+}
+.device-xxs h2 {
+    font-size:40px;
+    line-height:40px;
+    margin-top:15px;
 }
 #services .row {
 }
@@ -866,14 +874,11 @@ h2 {
     background:#FFF;
     color:#1385E8;
     border:2px solid #1385E8;
-    padding-top:0;
 }
 #device-xxs #contact .button-2 {
     font-size:18px;
 }
-#contact .button {
-    padding-top:0;
-}
+
 #contact .button-1 {
     padding:0 22px;
 
@@ -934,7 +939,7 @@ a.social-icon.si-colored.si-small.si-borderless.si-citysearch {
     text-align:center !important;
 }
 
-.device-xxs .social-icon {
+.device-xxs #copyrights .social-icon {
     position:relative;
     left:22%;
 }
