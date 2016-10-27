@@ -726,4 +726,51 @@ h2 {
     margin-bottom:20px;
 }
 
+/** SERVICES **/
+#services {
+    padding:50px 0;
+}
+
+#services h5 {
+    color:#084174;
+    margin-bottom:-10px;
+}
+#services h2 {
+    color:#1385E8;
+}
+#services .row {
+}
+#services .row h5 {
+    color:#1385E8;
+    margin-bottom:10px;
+}
+#services p {
+    color:#4A4A4A;
+    font-size:16px;
+    line-height:20px;
+}
+.r-more {
+    text-decoration:underline;
+}
+
+.r-more a {
+    color:#4E9B07;
+}
+#services .row img {
+    margin-bottom:25px;
+}
+
+/** LOCATION **/
+#location-top {
+    background:url('../images/location-bkgd-photo.jpg');
+    height:400px;
+}
+#location-top h5 {
+    margin-bottom:-10px;
+    color:#FFF;
+    margin-top:175px;
+}
+#location-top h2 {
+    color:#FFF;
+}
 
