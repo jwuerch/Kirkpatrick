@@ -324,4 +324,10 @@ h2 {
     background-repeat:no-repeat;
     background-size:cover;
     height:167.578px;
+    border-bottom:5px solid #FFF;
+}
+
+/* FALL SPECIALS */
+#fall-specials {
+    background-image:url('../images/')
 }
