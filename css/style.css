@@ -8579,12 +8579,7 @@ body:not(.device-touch) .on-hover.i-overlay {
 /* Social Icons - Small
 -----------------------------------------------------------------*/
 
-.social-icon.si-small {
-	width: 32px;
-	height: 32px;
-	font-size: 14px;
-	line-height: 30px !important;
-}
+
 
 .social-icon i {
 	display: block;

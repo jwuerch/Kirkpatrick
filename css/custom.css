@@ -881,5 +881,33 @@ h2 {
     padding:0 5px;
     font-size:18px;
 }
+#map-below {
+    border-bottom:5px solid #FFF;
+}
+/** COPY **/
+.copyright {
+    color:#FFF;
+    font-size:16px;
+}
+
+.tyson-link:hover {
+    text-decoration:underline;
+    color:#FFF;
+}
+.tyson-link {
+    color:#FFF;
+}
+.social-icon:hover {
+    text-decoration:none;
+}
+.social-icon.si-small {
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 30px !important;
+}
+a.social-icon.si-colored.si-small.si-borderless.si-citysearch {
+    line-height:22px !important;
+}
 
 
